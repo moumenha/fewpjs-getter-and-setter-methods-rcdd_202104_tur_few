@@ -18,15 +18,15 @@ class Circle {
     return Math.PI * (this.radius * this.radius);
   }
   
-  //   set diameter(diameter) {
-  //   this.radius =  diameter * 2;
-  // }
-  // set circumference(circumference) {
-  //   this.radius = Math.PI * diameter;
-  // }
-  // set area(area){
-  //   this.radius = Math.PI * (area * area);
-  // }
+    set diameter(diameter) {
+    this.radius =  diameter * 2;
+  }
+  set circumference(circumference) {
+    this.radius = Math.PI * diameter;
+  }
+  set area(area){
+    this.radius = Math.PI * (area * area);
+  }
 
   
 }
